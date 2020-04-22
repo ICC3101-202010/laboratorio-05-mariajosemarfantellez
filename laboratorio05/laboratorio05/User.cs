@@ -29,9 +29,9 @@ namespace laboratorio05
             respuesta = Console.ReadLine();
             if (respuesta.ToLower() == "si")
             {
-                Thread.Sleep(2000);
-                Console.WriteLine($"Se ha verificado el correo");
-                Thread.Sleep(2000);
+                //Thread.Sleep(2000);
+                //Console.WriteLine($"Se ha verificado el correo");
+                //Thread.Sleep(2000);
                 OnEmailVerified();
             }
             
